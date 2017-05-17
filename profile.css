@@ -1,0 +1,79 @@
+body h1 {
+  font-size: 100px;
+}
+
+body .header {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: Lobster;
+  border-style: solid;
+}
+
+body .buttons {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Lobster;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.all-content {
+  top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.all-content #about {
+
+
+}
+
+
+/*=============
+===============
+===============
+gameSpin=======*/
+
+.game {
+
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+  max-height: 500px;
+  top: 50px;
+}
+.game button{
+  max-height: 50px;
+  border-style: solid;
+}
+
+
+
+.game #place1 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.game #place2 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.game #place3 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  text-align: center;
+}
