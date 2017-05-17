@@ -4,33 +4,58 @@ window.onload = function() {
   var spotOne = document.getElementById('place1');
   var spotTwo = document.getElementById('place2');
   var spotThree = document.getElementById('place3');
+  var messegeDisplay = document.getElementById('messege');
+
+  messegeDisplay.style.visibility = 'hidden';
+
 
   buttonSlot.addEventListener('click', function(event) {
 
-  var numberPlaceOne = Math.random();
-  var numberPlaceTwo = Math.random();
-  var numberPlaceThree = Math.random();
+    var numberPlaceOne = Math.round(Math.random());
+    var numberPlaceTwo = Math.round(Math.random());
+    var numberPlaceThree = Math.round(Math.random());
+    var keepTrackOne;
+    var keepTrackTwo;
+    var keepTrackThree;
 
-console.log(numberPlaceThree);
-console.log(numberPlaceTwo);
-console.log(numberPlaceOne);
+    messegeDisplay.style.visibility = 'hidden';
 
-    /*spotOne.innerHTML = Math.random();
-    spotTwo.innerHTML = Math.random();
-    spotThree.innerHTML = Math.random();*/
+    if (numberPlaceOne % 2 == 0) {
+      spotOne.innerHTML = 'X'
+      keepTrackOne = true;
+    } else {
+      spotOne.innerHTML = 'O'
+      keepTrackOne = false;
+    }
 
-      if(numberPlaceOne % 2 == 0){
-        spotOne.innerHTML = 'X'
-      }else{spotOne.innerHTML = 'O' }
+    if (numberPlaceTwo % 2 == 0) {
+      spotTwo.innerHTML = 'X'
+      keepTrackTwo = true;
+    } else {
+      spotTwo.innerHTML = 'O'
+      keepTrackTwo = false;
+    }
 
-      if(numberPlaceTwo % 2 == 0){
-        spotTwo.innerHTML = 'X'
-      }else{spotTwo.innerHTML = 'O' }
+    if (numberPlaceThree % 2 == 0) {
+      spotThree.innerHTML = 'X'
+      keepTrackThree = true;
+      console.log(keepTrackThree);
+    } else {
+      spotThree.innerHTML = 'O'
+      keepTrackThree = false;
+      console.log(keepTrackThree);
+    }
 
-      if(numberPlaceThree % 2 == 0){
-        spotThree.innerHTML = 'X'
-      }else{spotThree.innerHTML = 'O' }
-
-
+    if (keepTrackOne == true && keepTrackTwo == true && keepTrackThree == true ||
+      keepTrackOne == false && keepTrackTwo == false && keepTrackThree == false) {
+      messegeDisplay.style.visibility = 'visible';
+    }
+    /* logical error fixedif (keepTrackOne && keepTrackTwo && keepTrackThree == true ||
+      keepTrackOne && keepTrackTwo && keepTrackThree == false) {
+      messegeDisplay.style.visibility = 'visible';
+    }*/
+    /*if (keepTrackOne && keepTrackTwo && keepTrackThree == false) {
+      messegeDisplay.style.visibility = 'visible';
+    }*/
   })
 }
