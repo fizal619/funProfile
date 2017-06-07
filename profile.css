@@ -36,7 +36,7 @@ body .buttons {
   border-radius: 25px;
   padding: 10px;
   font-size: 30px;
-
+  color: white;
 }
 .buttons #contactLink{
   margin: 10px;
@@ -45,7 +45,7 @@ body .buttons {
   border-radius: 25px;
   padding: 10px;
   font-size: 30px;
-
+  color: white;
 }
 .buttons #homeLink{
   margin: 10px;
@@ -54,6 +54,7 @@ body .buttons {
   border-radius: 25px;
   padding: 10px;
   font-size: 30px;
+  color: white;
 }
 
 
@@ -77,19 +78,41 @@ body .buttons {
 gameSpin=======*/
 
 .game {
-  max-width: 700px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  max-width: 950px;
+  display: relative;
+  flex-direction: column;
   margin: 0 auto;
-  max-height: 500px;
+  max-height:inherit;
   top: 50px;
 }
 .game button{
   max-height: 50px;
   border-style: solid;
+  color: white;
 }
 
+
+.game .first_column{
+  display: flex;
+  flex-direction:row;
+  max-width: inherit;
+  flex-flow: row;
+  width: inherit;
+}
+.game .second_column{
+  display: flex;
+  flex-direction:row;
+  max-width: inherit;
+  flex-flow: row;
+  width: inherit;
+}
+.game .third_column{
+  display: flex;
+  flex-direction:row;
+  max-width: inherit;
+  flex-flow: row;
+  width: inherit;
+}
 
 
 .game #place1 {
@@ -118,6 +141,64 @@ gameSpin=======*/
   text-align: center;
   border-radius:25px;
 }
+.game #place4 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  text-align: center;
+  border-radius:25px;
+
+}
+.game #place5 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  text-align: center;
+  border-radius:25px;
+}
+.game #place6 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  text-align: center;
+  border-radius:25px;
+}
+.game #place7 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  text-align: center;
+  border-radius:25px;
+}
+.game #place8 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  text-align: center;
+  border-radius:25px;
+}
+.game #place9 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  text-align: center;
+  border-radius:25px;
+}
+.game #place10 {
+  border-style: solid;
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  text-align: center;
+  border-radius:25px;
+}
+
 .game #messege{
   width: 150px;
   height: 100px;
