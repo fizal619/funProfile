@@ -1,0 +1,81 @@
+.buttons #aboutLink {
+  display: inherit;
+  justify-content: flex-start;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  color: white !important;
+  width: inherit;
+}
+
+.buttons #contactLink {
+  display: inherit;
+  justify-content: center;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 10px;
+  color: white !important;
+  width: inherit;
+}
+
+.buttons #homeLink {
+  display: inherit;
+  justify-content: flex-end;
+  padding: 5px 5px 5px 5px;
+  display: inherit;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 10px;
+  color: white !important;
+  width: inherit;
+}
+
+.buttons {
+  display: flex;
+  background-color: white !important;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: Lobster;
+  height: 70px;
+  margin: 20px;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  padding: 2px 2px 2px 2px;
+}
+
+body .header {
+  text-align: center;
+  text-shadow: 1px 1px blue;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Lobster;
+  border-style: solid;
+  margin-bottom: 100px;
+  height: 200px;
+  border-radius: 25px;
+  flex-wrap: wrap;
+}
+
+body #paragraph p{
+
+color: white;
+font-family: Lobster;
+font-size: 20px;
+
+
+
+
+
+}

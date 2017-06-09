@@ -17,6 +17,14 @@ body .header {
   margin-bottom: 100px;
 
 }
+.buttons{
+display: flex;
+background-color: white !important;
+justify-content: flex-start;
+flex-direction: row;
+font-family: Lobster;
+
+}
 
 body .buttons {
   /*font-size: 20px;*/
@@ -27,34 +35,38 @@ body .buttons {
   align-items: flex-end;
   margin-right: 10px;
   border-radius: 25px;
+  height: 100px;
 }
 
 .buttons #aboutLink{
+  padding: 5px;
   margin: 10px;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   border-radius: 25px;
   padding: 10px;
   font-size: 30px;
-  color: white;
+
 }
 .buttons #contactLink{
+  padding: 5px;
   margin: 10px;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   border-radius: 25px;
   padding: 10px;
   font-size: 30px;
-  color: white;
+
+
 }
 .buttons #homeLink{
   margin: 10px;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   border-radius: 25px;
   padding: 10px;
   font-size: 30px;
-  color: white;
+
 }
 
 
@@ -83,13 +95,16 @@ gameSpin=======*/
   flex-direction: column;
   margin: 0 auto;
   max-height:inherit;
-  top: 50px;
+  top: 250px;
 }
 .game button{
   max-height: 50px;
   border-style: solid;
-  color: white;
+  color: black;
+  display: relative;
+  box-decoration-break: none;
 }
+
 
 
 .game .first_column{
@@ -264,4 +279,30 @@ body #moreShade{
   border-radius: 900px;
   box-shadow: 100px 100px blue;
   margin: 0 auto;
+}
+body{
+height: 900px;
+bottom: 0px;
+}
+
+body #paragraph p{
+  display: relative;
+  right: 50px;
+  width: 500px;
+  height: 200px;
+  border-radius: 25px;
+  border-color: white;
+  font-size: 20px;
+  padding: 10px;
+  font-family: Lobster;
+  color: white !important;
+  background-color: none !important;
+}
+
+
+.dropdown{
+position: relative;
+
+
+
 }

@@ -1,0 +1,183 @@
+.buttons #aboutLink {
+  display: inherit;
+  justify-content: flex-start;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  color: white !important;
+  width: inherit;
+}
+
+.buttons #contactLink {
+  display: inherit;
+  justify-content: center;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  color: white !important;
+  width: inherit;
+}
+
+.buttons #homeLink {
+  display: inherit;
+  justify-content: flex-end;
+  padding: 5px 5px 5px 5px;
+  display: inherit;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  color: white !important;
+  width: inherit;
+}
+
+.buttons {
+  display: flex;
+  background-color: white !important;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: Lobster;
+  height: 70px;
+  margin: 20px;
+  border-radius: 25px;
+  text-align: center;
+  width: 300px;
+  padding: 2px 2px 2px 2px;
+}
+
+body .header {
+  text-align: center;
+  text-shadow: 1px 1px blue;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: Lobster;
+  border-style: solid;
+  margin-bottom: 100px;
+  height: 200px;
+  border-radius: 25px;
+  flex-wrap: wrap;
+}
+
+.pictureBox {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  margin: 0 auto;
+  width: 1000px;
+  height: 900px;
+  border-radius: 25px;
+  border-style: solid;
+  justify-content: center;
+}
+
+.rowOne {
+  align-self: flex-start;
+}
+
+.rowTwo {
+  align-self: flex-start;
+}
+
+.rowThree {
+  align-self: flex-end;
+}
+
+.pictureBox #picture1 {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg');
+}
+
+.pictureBox #picture2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://qph.ec.quoracdn.net/main-thumb-t-179097-200-xtfmsklhcdhpulowgxmupqsrszsllgfx.jpeg');
+}
+
+.pictureBox #picture3 {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg');
+}
+
+.pictureBox #picture4 {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg'); ;
+}
+
+.pictureBox #picture5 {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg');
+}
+
+.pictureBox #picture6 {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg');
+}
+
+.pictureBox #picture7 {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg');
+}
+
+.pictureBox #picture8 {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg');
+}
+
+.pictureBox #picture9 {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 25px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg');
+}
